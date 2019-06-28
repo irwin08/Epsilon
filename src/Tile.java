@@ -2,6 +2,12 @@ import java.awt.*;
 import java.util.Objects;
 
 public class Tile {
+
+    public Tile(char character, Color color){
+        this.character = character;
+        this.color = color;
+    }
+
     public char getCharacter() {
         return character;
     }

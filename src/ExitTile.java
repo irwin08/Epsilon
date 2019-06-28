@@ -1,6 +1,12 @@
+import java.awt.*;
 import java.util.Objects;
 
 public class ExitTile extends Tile {
+
+    public ExitTile(char c, Color color){
+        super(c,color);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
